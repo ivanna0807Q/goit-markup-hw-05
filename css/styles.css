@@ -589,9 +589,10 @@ display: block;
     background: rgba(0, 0, 0, 0.2);
 }
 
-.backdrop .hidden {
+.backdrop .is-hidden {
     opacity: 0;
     pointer-events: none;
+    visibility: hidden;
 
 }
 
@@ -609,6 +610,10 @@ display: block;
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
+}
+
+.model-close-button {
+    
 }
 
 
