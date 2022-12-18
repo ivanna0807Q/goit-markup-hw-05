@@ -722,6 +722,7 @@ display: block;
 
 }
 .project-list {
+    position: relative;
     width: 370px;
     border: 1px solid #EEEEEE;
 }
@@ -733,6 +734,28 @@ display: block;
 
     }
 
-.project-list:nth-child(3n) {
+.project:nth-child(3n) {
 margin-right: 0;
+}
+,.project-list:hover.submenu-project-list {
+    display: inline-block;
+}
+
+.submenu-project-list {
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    background: rgba(33, 150, 243, 0.9);
+    padding-top: 63px;
+    padding-right: 24px;
+    padding-bottom: 63px;
+    padding-left: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    display: none;
 }
