@@ -129,7 +129,7 @@ a {
 
 .header-nav-link.current::after{
     position: absolute;
-top: 77px;
+    top: 77px;
     left: 0;
     bottom: 0;
     content: "";
@@ -783,11 +783,11 @@ top: 77px;
 
 }
 .project {
-    position: relative;
     width: 370px;
     border: 1px solid #EEEEEE;
 }
 .project-list {
+    position: relative;
     box-shadow: none;
     transition-property: box-shadow;
     transition-duration: 250ms;
@@ -804,12 +804,11 @@ top: 77px;
 .project:nth-child(3n) {
 margin-right: 0;
 }
-,.project-list:hover.submenu-project-list {
-    display: inline-block;
-}
 
-.submenu-project-list {
+
+.submenu-project-text{
     position: absolute;
+    top: 90px;
     width: 370px;
     height: 294px;
     background: rgba(33, 150, 243, 0.9);
@@ -824,5 +823,8 @@ margin-right: 0;
     line-height: 28px;
     letter-spacing: 0.03em;
     color: #FFFFFF;
-    display: none;
+    overflow: hidden;
 }
+
+
+
