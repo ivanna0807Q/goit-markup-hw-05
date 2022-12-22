@@ -768,6 +768,7 @@ a {
     line-height: calc(36 / 18);
     letter-spacing: 0.06em;
     margin-bottom: 4px;
+
 }
 .project-text {
     color: var(--primary-text-color);
@@ -839,6 +840,8 @@ margin-right: 0;
 
 .text-overlay {
     position: absolute;
+    width: 100%;
+    height: 100%;
     padding: 63px 24px;
     font-size: 18px;
     line-height: calc(28 / 18);
@@ -852,4 +855,9 @@ margin-right: 0;
 .gallery-link:focus .overlay {
     transform: translateY(0%);
 }
-
+.desciption-under {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
