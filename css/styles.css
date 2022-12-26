@@ -671,7 +671,7 @@ a {
 
 
 .modal {
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -694,6 +694,7 @@ background: rgba(0, 0, 0, 0.2);
 }
 
 .modal-close-button {
+   position: absolute;
    box-sizing: border-box;
    width: 30px;
    height: 30px;
@@ -711,6 +712,42 @@ background: rgba(0, 0, 0, 0.2);
    -ms-border-radius: 100%;
    -o-border-radius: 100%;
 }
+
+/**   Modal window form styles  **/
+
+.form-title {
+    top: 0;
+    right: 0;
+    width: 448px;
+    height: 23px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: calc(23 / 20);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    padding-top: 12px;
+    padding-bottom: 20px;
+    padding-left: 41px;
+    padding-right: 39px;
+    
+}
+
+
+
+.form-line {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.modal-form {
+    padding-top: 40px;
+    padding-bottom: 12px;
+    padding-left: 41px;
+    padding-right: 39px;
+
+}
+
 
 
 /**** Porfolio Styles ****/
